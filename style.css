@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+  font-size: 2.0em;
+  font-weight: lighter;
+  font-family: 'Roboto Slab', serif;
+}
+h3 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-family: 'Roboto Slab', serif;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+}
+h5 {
+  font-family: 'Roboto Slab', serif;
+}
+h6 {
+  font-family: 'Roboto Slab', serif;
+}
+#header {
+  background-color: #00205f;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  margin: 0;
+  width: auto;
+  height: 23vh;
+  float: none;
+}
+#header a {
+  color: white;
+}
+.preview {
+  font-size:3.5vh;
+  position:relative;
+}
+.text-preview {
+  /* height:20vh; */
+  font-size:3vh;
+  position:relative;
+}
+.header-title {
+  float: left;
+  width: 50%;
+}
+.header-title a {
+  color: white;
+}
+.header-list {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.header-list li {
+  color: white;
+  margin: 1em;
+  float:right;
+  display:inline-block;
+}
+.header-list li a {
+  color: white;
+}
+.header-list a {
+  color: white;
+}
+#content {
+  float: none;
+  background-color: #EEEEEE;
+  font-family: 'Roboto', sans-serif;
+  color: #00205f;
+  padding: 1.25%;
+  margin: 0;
+  text-align: center;
+}
+#content a {
+  /*color: #ff2800;*/
+  color: green;
+}
+#blog-content {
+  float: none;
+  background-color: #EEEEEE;
+  font-family: 'Roboto', sans-serif;
+  color: #00205f;
+  text-align: center;
+  /* padding-left: 1vw;
+  padding-right: 1vw; */
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left:11vw;
+  padding-right: 11vw;
+}
+#footer {
+  background-color: black;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  padding: 1.25%;
+  margin: 0;
+}
+#footer li {
+  font-size: 1.5em;
+}
+#footer a {
+  color: white;
+}
+.blog-title {
+  font-size:3em;
+}
+.blog-date {
+  font-size:2.5em;
+}
+.blog-content {
+  font-size:1.5em;
+}
+.medium-text {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.kannada {
+  font-family: 'Noto Sans Kannada', cursive;
+}
